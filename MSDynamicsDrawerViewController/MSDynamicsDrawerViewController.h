@@ -179,6 +179,9 @@ typedef NS_ENUM(NSInteger, MSDynamicsDrawerPaneState) {
  */
 @property (nonatomic, assign) MSDynamicsDrawerPaneState paneState;
 
+@property (nonatomic, strong) UIPanGestureRecognizer *panePanGestureRecognizer;
+@property (nonatomic, strong) UITapGestureRecognizer *paneTapGestureRecognizer;
+
 /**
  The state of the pane view as defined in a `MSDynamicsDrawerPaneState`.
  

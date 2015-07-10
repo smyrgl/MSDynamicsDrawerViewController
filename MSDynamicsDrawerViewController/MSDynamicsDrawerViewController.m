@@ -124,8 +124,6 @@ void MSDynamicsDrawerDirectionActionForMaskedValues(NSInteger direction, MSDynam
 @property (nonatomic, strong) NSMutableDictionary *stylers;
 // Gestures
 @property (nonatomic, strong) NSMutableSet *touchForwardingClasses;
-@property (nonatomic, strong) UIPanGestureRecognizer *panePanGestureRecognizer;
-@property (nonatomic, strong) UITapGestureRecognizer *paneTapGestureRecognizer;
 // Dynamics
 @property (nonatomic, strong) UIDynamicAnimator *dynamicAnimator;
 @property (nonatomic, strong) UIPushBehavior *panePushBehavior;
