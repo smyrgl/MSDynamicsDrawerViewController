@@ -98,7 +98,7 @@ typedef NS_ENUM(NSInteger, MSDynamicsDrawerPaneState) {
 /**
  `MSDynamicsDrawerViewController` is a container view controller that manages the presentation of a single "pane" view controller overlaid over one or two "drawer" view controllers. The drawer view controllers are hidden by default, but can be exposed by a user-initiated swipe in the direction that that drawer view controller is set in.
  */
-@interface MSDynamicsDrawerViewController : UIViewController
+@interface MSDynamicsDrawerViewController : UIViewController <UIGestureRecognizerDelegate>
 
 ///------------------------------------------
 /// @name Managing the Child View Controllers

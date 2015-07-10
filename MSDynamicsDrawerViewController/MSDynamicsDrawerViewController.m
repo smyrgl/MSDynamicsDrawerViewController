@@ -104,7 +104,7 @@ void MSDynamicsDrawerDirectionActionForMaskedValues(NSInteger direction, MSDynam
     }
 }
 
-@interface MSDynamicsDrawerViewController () <UIGestureRecognizerDelegate, UIDynamicAnimatorDelegate>
+@interface MSDynamicsDrawerViewController () <UIDynamicAnimatorDelegate>
 
 // State
 @property (nonatomic, assign) BOOL animatingRotation;
