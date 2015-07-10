@@ -499,6 +499,8 @@ typedef NS_ENUM(NSInteger, MSDynamicsDrawerPaneState) {
  */
 - (CGFloat)currentRevealWidth;
 
+- (void)panePanned:(UIPanGestureRecognizer *)gestureRecognizer;
+
 ///----------------------
 /// @name Container Views
 ///----------------------
