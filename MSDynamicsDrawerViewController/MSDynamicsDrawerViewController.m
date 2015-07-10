@@ -1161,19 +1161,19 @@ void MSDynamicsDrawerDirectionActionForMaskedValues(NSInteger direction, MSDynam
 #pragma mark User Interaction
 
 - (void)setViewUserInteractionEnabled:(BOOL)enabled
-{/*
+{
     static NSInteger disableCount;
     if (!enabled) {
         disableCount++;
     } else {
         disableCount = MAX((disableCount - 1), 0);
     }
-    self.view.userInteractionEnabled = (disableCount == 0); */
+    self.view.userInteractionEnabled = (disableCount == 0);
 }
 
 - (void)setPaneViewControllerViewUserInteractionEnabled:(BOOL)enabled
 {
-    //self.paneViewController.view.userInteractionEnabled = enabled;
+    self.paneViewController.view.userInteractionEnabled = enabled;
 }
 
 #pragma mark UIGestureRecognizer Callbacks
